@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clipboard Api</title>
+
+    <style>
+      .row {
+        display: flex;
+        align-items: center;
+        margin: 15px 0;
+      }
+
+      .row input {
+        margin-right: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Clipboard Api</h1>
+    <h2>Another header</h2>
+    <input type="text" />
+
+    <div
+      class="editable"
+      contenteditable="true"
+      style="height: 200px; border: 1px solid black"
+    ></div>
+
+    <!-- Another example -->
+    <div class="row">
+      <input class="copyInput" type="text" />
+      <button class="copyBtn">Copy</button>
+    </div>
+    <div class="row">
+      <input class="pasteInput" type="text" />
+      <button class="pasteBtn">Paste</button>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
